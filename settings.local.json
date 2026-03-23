@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(python -m http.server 8000)",
+      "Bash(ls:*)",
+      "Bash(python:*)",
+      "Bash(where python3:*)",
+      "Bash(python3:*)",
+      "Bash(where conda:*)",
+      "Bash(pip install:*)",
+      "WebSearch",
+      "WebFetch(domain:www.apple.com)",
+      "Bash(chcp 65001)",
+      "Skill(update-config)"
+    ]
+  }
+}
