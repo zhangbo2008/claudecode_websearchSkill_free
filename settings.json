@@ -1,16 +1,16 @@
 {
 
   "env": {
-    "ANTHROPIC_MODEL": "qwen3-coder-plus",
+    "ANTHROPIC_MODEL": "qwen3.5-plus",
 
-            "ANTHROPIC_AUTH_TOKEN": "sk-xxxxxxxxxxxxxxxxx",
+            "ANTHROPIC_AUTH_TOKEN": "sk-xxxxxxxxxxx",
         "ANTHROPIC_BASE_URL": "https://dashscope.aliyuncs.com/apps/anthropic",
         "API_TIMEOUT_MS": "3000000",
            "ANTHROPIC_SMALL_FAST_MODEL": "glm-4.7"
 
   },
      "skipWebFetchPreflight": true,
-     "disabledTools": [],
+    "disabledTools": ["WebSearch"],
      "hooks": {
        "PreToolUse": [{
          "matcher": "WebSearch",
