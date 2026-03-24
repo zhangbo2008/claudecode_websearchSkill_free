@@ -46,5 +46,11 @@ headers = {
    'Content-Type': 'application/json'
 }
 
+import sys
+import io
+
+# 设置标准输出为UTF-8编码
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 response = requests.request("POST", url, headers=headers, data=payload)
 print(response.text)

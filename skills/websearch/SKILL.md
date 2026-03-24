@@ -1,6 +1,6 @@
 ---
 name: websearch
-description: "任何时候你需要搜索内容时候就使用这个技能来获取信息"
+description: "任何时候你需要上网搜索内容时候就使用这个技能来获取信息"
 license: Proprietary.
 ---
 
@@ -22,5 +22,5 @@ A .docx file is a ZIP archive containing XML files.
 
 
 ```bash
-python C:/Users/sdf/.claude/skills/websearch/scripts/search.py --query "Question"
+python C:\Users\sdf\.claude\skills\websearch\scripts\search.py --query "Question"
 ```

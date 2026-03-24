@@ -3,7 +3,7 @@
   "env": {
     "ANTHROPIC_MODEL": "qwen3-coder-plus",
 
-            "ANTHROPIC_AUTH_TOKEN": "sk-xxxxxxxxxxxxxxxxxxx",
+            "ANTHROPIC_AUTH_TOKEN": "sk-xxxxxxxxxxxxxxxxx",
         "ANTHROPIC_BASE_URL": "https://dashscope.aliyuncs.com/apps/anthropic",
         "API_TIMEOUT_MS": "3000000",
            "ANTHROPIC_SMALL_FAST_MODEL": "glm-4.7"
@@ -16,7 +16,7 @@
          "matcher": "WebSearch",
          "hooks": [{
            "type": "command",
-           "command": "python \"C:\\\\Users\\\\sdf\\\\.claude\\\\skills\\\\websearch\\\\scripts\\\\search.py\" --query \"$QUERY\""
+           "command": "python C:/Users/sdf/.claude/skills/websearch/scripts/search.py --query \"$QUERY\""
          }]
        }]
      }
